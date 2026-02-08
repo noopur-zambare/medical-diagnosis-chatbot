@@ -1,2 +1,1 @@
-# medical-diagnosis-chatbot
-Medical Diagnosis Chatbot
+# Medical Diagnosis Chatbot
