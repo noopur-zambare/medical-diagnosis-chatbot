@@ -11,11 +11,11 @@ This system combines:
 
 The goal is to simulate a collaborative clinical decision-making process using AI agents.
 
-<img src="https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/fllowchart.png?raw=true" width="650">
+<img src="https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/fllowchart.png?raw=true" width="700">
 
 
 ## Demo
-[Demo Video](https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo.mov)
+[![Demo Video](https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo_thumbnail.png)](<video controls src="https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo.mov"></video>)
 
 
 ## Quickstart
