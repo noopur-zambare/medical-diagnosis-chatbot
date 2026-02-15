@@ -1,4 +1,13 @@
 *.csv
 *.tsv
-*.json
 *.db
+
+api.env
+
+# virtual environment
+/medbot311
+
+# embedding model
+/MedEmbed-base-v0.1 
+
+/__pycache__
