@@ -15,7 +15,7 @@ The goal is to simulate a collaborative clinical decision-making process using A
 
 
 ## Demo
-[![Demo Video](https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo_thumbnail.png)](<video controls src="https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo.mov"></video>)
+[![Demo Video](https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo_thumbnail.png)](https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/demo.mov)
 
 
 ## Quickstart
