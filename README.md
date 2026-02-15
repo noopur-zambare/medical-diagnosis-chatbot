@@ -15,9 +15,7 @@ The goal is to simulate a collaborative clinical decision-making process using A
 
 
 ## Demo
-https://github.com/user-attachments/assets/48b0a599-8e01-41d7-8915-e2825ca1fcf4
-
-
+https://github.com/user-attachments/assets/07762c3c-674f-410a-a9fe-60c053a619d1
 
 ## Quickstart
 
