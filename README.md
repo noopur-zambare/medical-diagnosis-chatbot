@@ -56,3 +56,7 @@ https://github.com/user-attachments/assets/48b0a599-8e01-41d7-8915-e2825ca1fcf4
 ├── keyword.json            # Keywords for routing agents
 └── vector_store.py         # Vector Database
 ```
+
+## ⚠️ Disclaimer
+This project is for research and educational purposes only.
+It is not a substitute for professional medical advice, diagnosis, or treatment.
