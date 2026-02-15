@@ -11,7 +11,7 @@ This system combines:
 
 The goal is to simulate a collaborative clinical decision-making process using AI agents.
 
-![Workflow Diagram](assets/flowchart.png)
+![Workflow Diagram](https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/fllowchart.png?raw=true)
 
 
 ## Quickstart
