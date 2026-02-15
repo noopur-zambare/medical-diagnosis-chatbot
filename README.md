@@ -44,10 +44,10 @@ The goal is to simulate a collaborative clinical decision-making process using A
 
 ## Project Structure
 ```
-|── Agents.py          # Medical Agents
-├── assets/            # Demo and workflow
-├── app.py             # Gradio application
+├── Agents.py # Medical Agents
+├── assets/ # Demo video and workflow images
+├── app.py # Gradio application
 ├── embedding_model.py # Code to download embedding model
-├── keyword.json       # Keywords for routing agents
-└── vector_store.py    # Vector Database
+├── keyword.json # Keywords for routing agents
+└── vector_store.py # Vector Database
 ```
