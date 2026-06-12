@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/07762c3c-674f-410a-a9fe-60c053a619d1
     ```
 3. **Set up your API credentials:**
     - Create a file named api.env in the project root.
-    - Add your Pinecone and OpenAI credentials:
+    - Add your Pinecone and OpenAI credentials.
     ```bash
     OPENAI_API_KEY=''
     PINECONE_API_KEY=''
