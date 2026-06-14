@@ -6,15 +6,13 @@ This system combines:
 
 - Vector Search (Pinecone) for longitudinal patient memory
 - Medical Embeddings Model for semantic similarity
-- Specialized Medical Agents (Cardiology, Pulmonology, Gastroenterology, Dermatology and Rheumatology)
+- Specialized Medical Agents (Cardiology, Pulmonology, Gastroenterology, Dermatology, and Rheumatology)
 - Agent Routing to activate relevant specialists based on symptoms
 - Interactive Gradio UI for entering symptoms, selecting patient ID, viewing live outputs, and saving reports
 - Production-Level Metrics for evaluating latency, token usage, estimated LLM cost, and cost-latency efficiency
 
 The goal is to simulate a collaborative clinical decision-making process using AI agents.
-
-<img src="https://github.com/noopur-zambare/medical-diagnosis-chatbot/blob/main/assets/fllowchart.png?raw=true" width="700">
-
+<img width="1389" height="459" alt="flowchart" src="https://github.com/user-attachments/assets/e2a16007-75c8-43f0-b3fa-f37043d0fb78" />
 
 
 ## How It Works
@@ -53,11 +51,8 @@ For example:
    The user can also choose which sections to include in the report, such as retrieved reports, summary, activated agents, specialist reports, final diagnosis, and production metrics.
 
 
-
 ## Demo
 https://github.com/user-attachments/assets/07762c3c-674f-410a-a9fe-60c053a619d1
-
-
 
 ## Quickstart
 
