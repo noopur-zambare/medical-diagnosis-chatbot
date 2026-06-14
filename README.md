@@ -9,7 +9,7 @@ This system combines:
 - Specialized Medical Agents (Cardiology, Pulmonology, Gastroenterology, Dermatology, and Rheumatology)
 - Agent Routing to activate relevant specialists based on symptoms
 - Interactive Gradio UI for entering symptoms, selecting patient ID, viewing live outputs, and saving reports
-- Production-Level Metrics for evaluating latency, token usage, estimated LLM cost, and cost-latency efficiency
+- Production level Metrics for evaluating latency, token usage, estimated LLM cost, and cost-latency efficiency
 
 The goal is to simulate a collaborative clinical decision-making process using AI agents.
 
