@@ -31,16 +31,16 @@ The system follows a step-by-step multi-agent diagnosis workflow:
    The retrieved reports are summarized into a concise patient history. This helps the agents use relevant previous context without passing long reports directly into every agent.
 
 4. **Agent Routing**  
-   The system analyzes the symptoms and activates the relevant medical specialist agents.
+The system analyzes the symptoms and activates the relevant medical specialist agents.
 
-   For example:
+For example:
 
-   | Symptom Type | Activated Agent |
-   |||
-   | Chest pain, shortness of breath, palpitations | Cardiologist / Pulmonologist |
-   | Joint pain, swelling, stiffness | Rheumatologist |
-   | Skin rash, itching, redness | Dermatologist |
-   | Stomach pain, acidity, vomiting | Gastroenterologist |
+| Symptom Type | Activated Agent |
+|---|---|
+| Chest pain, shortness of breath, palpitations | Cardiologist / Pulmonologist |
+| Joint pain, swelling, stiffness | Rheumatologist |
+| Skin rash, itching, redness | Dermatologist |
+| Stomach pain, acidity, vomiting | Gastroenterologist |
 
 5. **Specialist Agent Response Generation**  
    Each activated specialist agent analyzes the current symptoms along with the summarized patient history and generates a specialist-specific response.
@@ -112,7 +112,7 @@ The project also tracks production-level metrics such as latency, token usage, a
 These metrics help evaluate whether the system is practical from a deployment perspective.
 
 | Metric | Description |
-|||
+|---|---|
 | Total Latency | Total time taken to complete one diagnosis session |
 | Retrieval Latency | Time taken to retrieve similar reports from Pinecone |
 | Summary Latency | Time taken to summarize previous patient history |
