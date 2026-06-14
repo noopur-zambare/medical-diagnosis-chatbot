@@ -24,7 +24,7 @@ The system follows a step-by-step multi-agent diagnosis workflow:
    Based on the query and Patient ID, the chatbot retrieves the Top-K most similar previous reports from the patient’s history using Pinecone vector search.
 
 3. **Medical History Summarization**  
-   The retrieved reports are summarized into a concise patient history. This helps the agents use relevant previous context without passing long reports directly into every agent.
+   The retrieved reports are summarized into a concise patient history. This helps the agents use relevant previous context without passing long reports directly to every agent.
 
 4. **Agent Routing**  
 The system analyzes the symptoms and activates the relevant medical specialist agents.
@@ -45,13 +45,15 @@ For example:
    The outputs from all activated agents are combined to generate a final diagnosis-style summary.
 
 7. **Report Generation**  
-   The user can save the output as a `.txt` or `.pdf` report.  
+   The user can save the output as a .txt or .pdf report.  
    The user can also choose which sections to include in the report, such as retrieved reports, summary, activated agents, specialist reports, final diagnosis, and production metrics.
 
 <img width="1389" height="459" alt="flowchart" src="https://github.com/user-attachments/assets/e2a16007-75c8-43f0-b3fa-f37043d0fb78" />
 
 ## Demo
-https://github.com/user-attachments/assets/07762c3c-674f-410a-a9fe-60c053a619d1
+
+https://github.com/user-attachments/assets/4c0413cd-6fef-4000-b143-d0357068c9bb
+
 
 ## Quickstart
 
