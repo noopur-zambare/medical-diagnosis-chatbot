@@ -52,6 +52,7 @@ https://github.com/user-attachments/assets/07762c3c-674f-410a-a9fe-60c053a619d1
 ├── app.py                  # Gradio application
 ├── embedding_model.py      # Code to download embedding model
 ├── keyword.json            # Keywords for routing agents
+├── metrics.py              # Agent evaluation script
 └── vector_store.py         # Vector Database
 ```
 
