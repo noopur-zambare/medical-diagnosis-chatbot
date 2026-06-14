@@ -97,5 +97,4 @@ def format_metrics(metrics: dict) -> str:
 | Input Cost Rate | ${INPUT_COST_PER_MILLION} / 1M tokens |
 | Output Cost Rate | ${OUTPUT_COST_PER_MILLION} / 1M tokens |
 | LLM Cost | ${metrics["llm_cost_usd"]} |
-| Cost-Latency Score | {metrics["cost_latency_score"]} |
 """
