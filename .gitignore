@@ -10,4 +10,11 @@ api.env
 # embedding model
 /MedEmbed-base-v0.1 
 
-/__pycache__
+# system / macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+
+# results folder
+/results
