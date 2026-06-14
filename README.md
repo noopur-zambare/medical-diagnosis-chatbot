@@ -121,27 +121,6 @@ These metrics help evaluate whether the system is practical from a deployment pe
 | Total Tokens | Total tokens used in one diagnosis session |
 | LLM Cost | Estimated LLM cost for one diagnosis session |
 
-### 3. Latency Evaluation on Test Sample
-
-In one demo run, the system produced the following latency breakdown:
-
-| Metric | Value |
-|---|---:|
-| Total Latency | 9.79 sec |
-| Retrieval Latency | 1.24 sec |
-| Summary Latency | 2.95 sec |
-| Routing Latency | 0.01 sec |
-| Specialist Agents Latency | 3.46 sec |
-| Final Summary Latency | 1.84 sec |
-| Upsert Latency | 0.28 sec |
-
-From this breakdown, the largest latency contribution comes from specialist-agent response generation and summary generation.
-
-This shows that the main optimization area is reducing unnecessary LLM calls, improving prompt efficiency, or running specialist agents in parallel.
-
-Overall, the evaluation focuses not only on medical response quality, but also on real-world deployment factors like latency, token usage, cost, and system performance.
-
-
 
 ## Project Structure
 ```
@@ -153,8 +132,6 @@ Overall, the evaluation focuses not only on medical response quality, but also o
 ├── metrics.py              # Agent evaluation script
 └── vector_store.py         # Vector Database
 ```
-
-
 
 ## ⚠️ Disclaimer
 This project is for research and educational purposes only.
