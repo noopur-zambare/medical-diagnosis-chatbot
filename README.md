@@ -12,8 +12,6 @@ This system combines:
 - Production-Level Metrics for evaluating latency, token usage, estimated LLM cost, and cost-latency efficiency
 
 The goal is to simulate a collaborative clinical decision-making process using AI agents.
-<img width="1389" height="459" alt="flowchart" src="https://github.com/user-attachments/assets/e2a16007-75c8-43f0-b3fa-f37043d0fb78" />
-
 
 ## How It Works
 
@@ -50,6 +48,7 @@ For example:
    The user can save the output as a `.txt` or `.pdf` report.  
    The user can also choose which sections to include in the report, such as retrieved reports, summary, activated agents, specialist reports, final diagnosis, and production metrics.
 
+<img width="1389" height="459" alt="flowchart" src="https://github.com/user-attachments/assets/e2a16007-75c8-43f0-b3fa-f37043d0fb78" />
 
 ## Demo
 https://github.com/user-attachments/assets/07762c3c-674f-410a-a9fe-60c053a619d1
@@ -125,14 +124,14 @@ These metrics help evaluate whether the system is practical from a deployment pe
 In one demo run, the system produced the following latency breakdown:
 
 | Metric | Value |
-||:|
-| Total Latency | 9.785 sec |
-| Retrieval Latency | 1.2443 sec |
-| Summary Latency | 2.9534 sec |
-| Routing Latency | 0.0071 sec |
-| Specialist Agents Latency | 3.4569 sec |
-| Final Summary Latency | 1.8424 sec |
-| Upsert Latency | 0.2797 sec |
+|---|---:|
+| Total Latency | 9.79 sec |
+| Retrieval Latency | 1.24 sec |
+| Summary Latency | 2.95 sec |
+| Routing Latency | 0.01 sec |
+| Specialist Agents Latency | 3.46 sec |
+| Final Summary Latency | 1.84 sec |
+| Upsert Latency | 0.28 sec |
 
 From this breakdown, the largest latency contribution comes from specialist-agent response generation and summary generation.
 
