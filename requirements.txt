@@ -2,6 +2,7 @@ torch
 transformers
 pinecone
 langchain_openai
+langchain-community
 dotenv
 gradio
 fpdf
